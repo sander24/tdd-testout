@@ -10,4 +10,8 @@ public class URLparser {
         return protocol;
     }
 
+    public int getPort() {
+        return 80;
+    }
+
 }
