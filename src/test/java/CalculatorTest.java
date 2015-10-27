@@ -11,9 +11,16 @@ public class CalculatorTest {
   }
 
   @Test
-  public void testAddFailing() {
+  public void testSubtract() {
     Calculator c = new Calculator();
-    assertTrue(c.add(2, 2) == 5);
+    assertTrue(c.subtract(7, 4) == 3);
   }
-  
+
+
+  @Test
+  public void testMultiply() {
+    Calculator c = new Calculator();
+    assertTrue(c.multiply(3, 4) == 12);
+  }
+
 }
